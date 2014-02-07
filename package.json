@@ -1,0 +1,14 @@
+{
+  "name": "phantomcss-test-project",
+  "description": "Template to start working with PhantomCSS tests.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Alejandro Soto",
+    "email": "asotog88@yahoo.es"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "phantomjs": "~1.9.7-1",
+    "grunt-phantomcss": "~0.2.0"
+  }
+}
