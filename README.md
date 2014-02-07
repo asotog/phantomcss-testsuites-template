@@ -18,4 +18,4 @@ Uses [grunt-phantomcss](https://github.com/chrisgladd/grunt-phantomcss) under th
 
 ## Usage
 
-Start coding phantomcss tests in `testsuites/testsuite-general.js`, multiple files can be placed on this folder to execute different components tests, finally run `grunt phantomcss:desktop` or `grunt phantomcss:phone`
+Start coding phantomcss tests in `testsuites/testsuite-general.js`, multiple files can be placed on this folder to execute different components tests, finally run inside `project-name-test` the command `grunt phantomcss:desktop` or `grunt phantomcss:phone`, desktop and phone subtasks are set in the `Gruntfile.js` file, additionally this file can be modified to add more subtasks or to change default viewport dimensions
