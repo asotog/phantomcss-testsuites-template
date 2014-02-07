@@ -1,10 +1,9 @@
-
 /*
-	Test Scenario
-	
-	Description:
+    Test Scenario
+    
+    Description:
 */
-casper.start( '_URL_' )
-.then(function(){
-	phantomcss.screenshot('body', 'Site - home');
-});
+casper.start('_URL_')
+    .then(function () {
+        phantomcss.screenshot('body', 'Site - home');
+    });
